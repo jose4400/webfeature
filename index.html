@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://fonts.cdnfonts.com/css/calculator" rel="stylesheet" />
+    <link
+      rel="preload"
+      href="LCDMono2Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+
+    <title>UPERFEKT ER PERFEKT | Webfeature</title>
+    <style>
+      @import url("http://fonts.cdnfonts.com/css/calculator");
+      @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+    </style>
+    <style>
+      h1,
+      h3,
+      .dig {
+        font-family: "LCDMono2";
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      p,
+      h2 {
+        font-family: "Lato", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .stock {
+        width: 700px;
+
+        background: #e2dcc8;
+      }
+      .kam {
+        width: 350px;
+      }
+      .kam2 {
+        width: 250px;
+      }
+      .wobble-hor-bottom {
+        -webkit-animation: wobble-hor-bottom 2s infinite both;
+        animation: wobble-hor-bottom 2s infinite both;
+      }
+
+      .kenburns-top {
+        -webkit-animation: kenburns-top 5s ease-out both;
+        animation: kenburns-top 5s ease-out both;
+      }
+
+      @-webkit-keyframes wobble-hor-bottom {
+        0%,
+        100% {
+          transform: translateX(0%);
+          transform-origin: 50% 50%;
+        }
+        15% {
+          transform: translateX(-30px) rotate(-6deg);
+        }
+        30% {
+          transform: translateX(15px) rotate(6deg);
+        }
+        45% {
+          transform: translateX(-15px) rotate(-3.6deg);
+        }
+        60% {
+          transform: translateX(9px) rotate(2.4deg);
+        }
+        75% {
+          transform: translateX(-6px) rotate(-1.2deg);
+        }
+      }
+      @keyframes wobble-hor-bottom {
+        0%,
+        100% {
+          transform: translateX(0%);
+          transform-origin: 50% 50%;
+        }
+        15% {
+          transform: translateX(-30px) rotate(-6deg);
+        }
+        30% {
+          transform: translateX(15px) rotate(6deg);
+        }
+        45% {
+          transform: translateX(-15px) rotate(-3.6deg);
+        }
+        60% {
+          transform: translateX(9px) rotate(2.4deg);
+        }
+        75% {
+          transform: translateX(-6px) rotate(-1.2deg);
+        }
+      }
+
+      @-webkit-keyframes kenburns-top {
+        0% {
+          transform: scale(0.9) translateY(0);
+          transform-origin: 50% 16%;
+        }
+        100% {
+          transform: scale(1) translateY(-15px);
+          transform-origin: top;
+        }
+      }
+      @keyframes kenburns-top {
+        0% {
+          transform: scale(0.9) translateY(0);
+          transform-origin: 50% 16%;
+        }
+        100% {
+          transform: scale(1) translateY(-15px);
+          transform-origin: top;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/main.0864a5ac.js"></script>
+    <link rel="stylesheet" href="./assets/index.1e45af62.css">
+  </head>
+  <body class="grid place-content-start">
+    <section class="">
+      <div>
+        <h1
+          class="staggeranimation absolute top-1/2 left-1/2 z-50 -translate-x-1/2 text-5xl uppercase text-white"
+        >
+          <span class="stag">Uperfekt </span> <span class="stag">er</span>
+          <span class="stag">perfekt</span>
+        </h1>
+
+        <img
+          class=""
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/bog - lidt i fem/mcd.JPG"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="grid snap-start justify-items-center bg-amber-50">
+      <div
+        class="custom-img sticky -top-96 left-0 right-0 z-40 mb-12 h-screen items-center justify-center bg-cover bg-fixed bg-center"
+      >
+        <img
+          class=""
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/brown.png"
+          alt=""
+        />
+      </div>
+
+      <div class="relative -top-96">
+        <img
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/pierre/pierre.jpeg"
+          alt=""
+        />
+        <div class="absolute bottom-48 left-0 right-0 text-center text-4xl">
+          <h2 class="font-bold uppercase text-amber-50">Pierre falcke</h2>
+        </div>
+      </div>
+
+      <ul
+        class="staggeranimation mb-16 -mt-36 p-3 text-center text-lg font-semibold uppercase text-amber-600"
+      >
+        <li class="pb-5">Pierre sælger 2 millioner fotos om året</li>
+        <li class="pb-5">Det svarer til én fotolicens hvert 16. sekund</li>
+        <li>Du ser hans fotos ca. 2 gange om dagen</li>
+      </ul>
+
+      <div class="mb-48">
+        <div class="relative">
+          <p
+            class="mb-40 max-w-xl bg-amber-600 bg-opacity-50 p-20 text-base leading-7"
+          >
+            Du ved formentligt ikke hvem han er. Men indtil for kort tid siden,
+            så du hans værker et par gange om dagen, hver dag, året rundt.
+          </p>
+          <div>
+            <img
+              class="kam wobble-hor-bottom absolute -left-48 -top-28"
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 1-kopi.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="relative justify-items-center">
+          <p p class="max-w-xl bg-amber-600 bg-opacity-50 p-20 leading-7">
+            Pierre Falcke var en af verdens bedst sælgende stock-fotografer, og
+            han solgte over 2 millioner fotos om året. Men Pierre kunne ikke
+            drømme om at bruge sine egne fotos - faktisk kan han ikke fordrage
+            sit eget arbejde.
+          </p>
+          <div>
+            <img
+              class="kam wobble-hor-bottom absolute -right-48 -bottom-28"
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 6.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="stock prose mb-48 decoration-amber-600">
+        <h3 class="pl-12 pt-5 text-xl uppercase text-amber-600">
+          Hvad er Stock-fotos?
+        </h3>
+        <ul class="list-none">
+          <li class="pl-5 pr-5 pb-3 pt-3 leading-7">
+            Stock-fotos er billeder, der kan købes fra et foto-website. De
+            bruges af aviser, til markedsføring og som indhold på websites. En
+            licens til at bruge et foto koster typisk mellem 10 og 100 kroner,
+            alt afhængig af hvad de skal bruges til.
+          </li>
+          <li class="pl-5 pr-5 pb-3 leading-7">
+            Stock-fotos bliver ofte kritiseret for at være uden sjæl - det er de
+            der billeder af en læge i hvid kittel med stetoskop om halsen på en
+            meget hvid baggrund eller en meget glad dame fra virksomhedens
+            salgs- eller supportafdeling.
+          </li>
+          <li class="pl-5 pr-5 pb-5 leading-7">
+            Stock-fotos har eksisteret i mange år. Før branchen blev digital,
+            tilbød stock-foto virksomhederne billedmapper, der kunne bestilles
+            fra. Men stock-foto branchen var én af de tidlige til at blive fuldt
+            digitaliseret.
+          </li>
+        </ul>
+        <h2 class="mb-0 pl-8 pb-0 text-base text-amber-600">
+          Eksempler på nogle af Pierres stock-fotos
+        </h2>
+        <div
+          class="container mx-auto space-y-2 pl-3 pr-3 lg:grid lg:grid-cols-3 lg:gap-2 lg:space-y-0"
+        >
+          <div class="w-full rounded hover:scale-125">
+            <img
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/stock/arbejde-2.jpg"
+              alt="image"
+            />
+          </div>
+          <div class="w-full rounded hover:scale-125">
+            <img
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/stock/arbejde.jpg"
+              alt="image"
+            />
+          </div>
+          <div class="w-full rounded hover:scale-125">
+            <img
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/stock/godt-arbejde.jpg"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grid snap-start justify-items-center bg-violet-100">
+      <div
+        class="custom-img sticky -top-96 left-0 right-0 z-40 mb-12 h-screen items-center justify-center bg-cover bg-fixed bg-center"
+      >
+        <img
+          class=""
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/grey.png"
+          alt=""
+        />
+      </div>
+      <div class="mb-48"></div>
+
+      <div class="relative -mt-36">
+        <h2
+          class="bg-neutral-500 bg-opacity-50 pt-10 pb-3 text-center text-xl font-semibold uppercase text-white"
+        >
+          Pierres berømmelse
+        </h2>
+        <p
+          class="mb-40 max-w-xl bg-neutral-500 bg-opacity-50 pl-20 pr-20 pb-20 text-base leading-7 text-white"
+        >
+          Pierres interesse for foto startede som ganske ung - som 10-årig fik
+          han sin fars gamle Rollei-kamera, og begyndte at skyde løs. Det var
+          før den digitale revolution, så alle Pierres lommepenge blev brugt på
+          filmruller og fremkaldelse af film. Pierre fortsatte med at
+          fotografere på film op gennem gymnasietiden.
+        </p>
+        <div>
+          <img
+            class="kam wobble-hor-bottom absolute -right-48 -top-20 float-right"
+            src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 7.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="mb-48 justify-items-center bg-cover bg-scroll"
+        style="
+          background-image: url(./assets/billigt-objektiv.85b591a0.jpg);
+        "
+      >
+        <div class="relative">
+          <p
+            class="max-w-xl bg-neutral-500 bg-opacity-50 p-20 leading-7 text-white"
+          >
+            Pierre gik over til digital fotografering i starten af 2000’erne, da
+            han begyndte at studere fotografisk kommunikation på DMJX. Her
+            åbnede en ny verden sig: Reklamefotografering i studie, lyssætning
+            og manipulering af billeder i Photoshop blev hans nye stil.
+          </p>
+          <div class="rotate-6">
+            <img
+              class="kam wobble-hor-bottom absolute -right-32 -top-48"
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/rettet.png"
+              alt=""
+            />
+          </div>
+
+          <p
+            class="max-w-xl bg-neutral-500 bg-opacity-50 p-20 leading-7 text-white"
+          >
+            På det tidspunkt var stock-foto industrien i starten af en
+            revolution: De første online stock-foto websites begyndte at komme
+            på markedet, men de store, etablerede spillere på markedet holdt
+            lidt igen. Pierre så det for sig:
+            <span class="italic"
+              >“Om ganske få år er hele branchen digital, og dem der ikke hopper
+              med på den digitale vogn, lukker.”</span
+            >
+          </p>
+        </div>
+      </div>
+      <!--     <div class=" bg-scroll justify-items-center bg-cover mb-48" style="background-image: url(/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/fotoeksperimenter/scan.jpg);"> -->
+      <div class="relative">
+        <p
+          class="max-w-xl bg-neutral-500 bg-opacity-50 p-20 align-middle leading-7 text-white"
+        >
+          Så Pierre gav sig selv en udfordring: At blive landets bedst sælgende
+          stock-fotograf. Pierre lejede et gammelt, billigt erhvervslokale i
+          Ishøj industri, fik fløjet billige skuespillere ind fra Polen og
+          Baltikum, og fotograferede 10 timer om dagen.
+        </p>
+      </div>
+
+      <div class="relative">
+        <p
+          class="max-w-xl bg-neutral-500 bg-opacity-50 p-20 leading-7 text-white"
+        >
+          Pierres profeti om stock-foto branchen holdt stik. Pierre var allerede
+          en af landets bedst sælgende stock-fotografer, før han blev færdig med
+          studiet på DMJX.
+        </p>
+        <div class="rotate-180">
+          <img
+            class="kam2 wobble-hor-bottom absolute -right-14 -top-20"
+            src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 1.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section class="grid snap-start justify-items-center bg-indigo-100">
+      <div
+        class="custom-img sticky -top-96 left-0 right-0 z-40 mb-12 h-screen items-center justify-center bg-cover bg-fixed bg-center"
+      >
+        <img
+          class=""
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/blue.png"
+          alt=""
+        />
+      </div>
+
+      <div class="mb-48">
+        <div class="relative">
+          <h2
+            class="bg-slate-400 bg-opacity-50 pt-10 pb-3 text-center text-xl font-semibold uppercase text-white"
+          >
+            En skillevej
+          </h2>
+          <p
+            class="mb-40 max-w-xl bg-slate-400 bg-opacity-50 pl-20 pr-20 pb-20 text-base leading-7"
+          >
+            Pierre tjente godt det følgende årti. Men stille og roligt begyndte
+            billederne også at give ham kvalme. Han kunne ikke holde sit eget
+            arbejde ud, og måtte finde et modsvar til alle de blankpolerede
+            fotos. Noget han kunne lave med stolthed. Pierre bestluttede sig for
+            at droppe stock-fotos, og vende tilbage til rødderne.
+          </p>
+          <div>
+            <img
+              class="kam2 wobble-hor-bottom absolute -left-28 -top-20"
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 4jsd.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="relative justify-items-center">
+        <p p class="mb-40 max-w-xl bg-slate-400 bg-opacity-50 p-20 leading-7">
+          Han søgte inspiration i analog fotografering, i Lomo-bevægelsen,
+          Glitch art og polaroid fotografering, og begyndte stille og roligt at
+          skabe sig en ny stil - en stil med fokus på det uperfekte, og hvor der
+          er et uforudsigeligt element i det at tage billeder.
+        </p>
+      </div>
+
+      <div class="mb-40 max-w-xl">
+        <img
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/glitch.gif"
+          alt=""
+        />
+      </div>
+      <div class="relative justify-items-center">
+        <p p class="mb-20 max-w-xl bg-slate-400 bg-opacity-50 p-20 leading-7">
+          Pierre tog det endda så vidt at han ikke kun droppede at tage
+          stock-fotos. Han fjernede også alle stock-fotos fra de tjenester, han
+          solgte sine fotos hos. Han gik fra at være en god forretningsdrivende
+          til at blive en vaskeægte boheme-type på rekordtid.
+        </p>
+        <div>
+          <img
+            class="kam wobble-hor-bottom absolute -right-36 -bottom-28"
+            src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 4IFDS.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div
+        class="mb-40 max-h-fit max-w-xl bg-slate-400 bg-opacity-50 p-5 text-base leading-7"
+      >
+        <h2 class="mb-0 pl-3 pb-0 text-base text-slate-800">
+          Her ses en tydelig forskel på Pierre Falckes fotografiske stil,<br />
+          <span class="font-semibold italic">
+            Fra det perfekte til det uperfekte</span
+          >
+        </h2>
+        <div
+          class="container mx-auto space-y-2 pl-3 pr-3 lg:grid lg:grid-cols-3 lg:gap-2 lg:space-y-0"
+        >
+          <div
+            class="w-full rounded opacity-75 hover:scale-125 hover:opacity-100"
+          >
+            <img
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/stock/sammenhold.jpg"
+              alt="image"
+            />
+          </div>
+          <div class="relative w-full rounded">
+            <img
+              class="opacity-40"
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/fotoeksperimenter/lomo.jpg"
+              alt="image"
+            />
+            <div
+              class="absolute bottom-24 left-12 right-28 text-center text-xl"
+            >
+              <svg class="" width="84" height="84" viewBox="0 0 24 24">
+                <path
+                  fill="#73848E"
+                  d="M6.4 18L5 16.6L9.575 12L5 7.4L6.4 6l6 6Zm6.6 0l-1.4-1.4l4.575-4.6L11.6 7.4L13 6l6 6Z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="w-full rounded opacity-75 hover:scale-125 hover:opacity-100"
+          >
+            <img
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/fotoeksperimenter/sh-skidt.jpg"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid snap-start justify-items-center bg-emerald-50">
+      <div
+        class="custom-img sticky -top-96 left-0 right-0 z-40 mb-12 h-screen items-center justify-center bg-cover bg-fixed bg-center"
+      >
+        <img
+          class=""
+          src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/green.png"
+          alt=""
+        />
+      </div>
+
+      <div class="mb-6">
+        <div class="relative">
+          <h2
+            class="bg-green-900 bg-opacity-50 pt-10 pb-3 text-center text-xl font-semibold uppercase text-white"
+          >
+            En ny begyndelse
+          </h2>
+          <p
+            class="mb-40 max-w-xl bg-green-900 bg-opacity-50 pl-20 pr-20 pb-20 text-base leading-7 text-white"
+          >
+            Men Pierre er glad for sin beslutning. Indkomsten er lavere nu, men
+            han har stadig lidt penge på kontoen, og studerer nu
+            kunstfotografering på fotoskolen Fatamorgana. <br /><br />
+            Han glæder sig over hver dags kunstneriske eksperimenter, og er for
+            første gang i sit liv rigtig stolt af sit arbejde. Som Pierre selv
+            udtrykker det:
+            <span class="italic">
+              “Det interessante ligger i fejlen. Et foto med masser af fejl er
+              interessant. Jeg eksperimenterer med udstyr og teknik, og skaber
+              nye visuelle udtryk. Det uperfekte er perfekt.”
+            </span>
+          </p>
+          <div>
+            <img
+              class="kam wobble-hor-bottom absolute -right-36 -top-28"
+              src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 765.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="relative justify-items-center">
+        <p
+          class="mb-40 max-w-xl bg-green-900 bg-opacity-50 p-20 leading-7 text-white"
+        >
+          Karrieren begynder også så småt også at gå den rette vej: Pierre er
+          begyndt at sælge fotokunst på nettet, og har udgivet sin første
+          foto-bog med titlen <span class="font-bold">“Lidt i fem”</span> som er
+          en fotografisk odyssé om at slæbe en brandert hjem i de tidlige
+          morgentimer. I forbindelse med udgivelsen af bogen, har han en
+          udstilling på vej i det Kongelige Biblioteks fotoudstilling.
+        </p>
+        <div class="kam wobble-hor-bottom absolute -left-20 -bottom-3">
+          <img
+            src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/assets/Untitled_Artwork 7.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="relative justify-items-center">
+        <div class="mb-40 max-w-2xl">
+          <img
+            class="drop-shadow-2xl"
+            src="/Users/josefinececilie/Documents/kea/3.semester2/webfeature/img/bog.png"
+            alt=""
+          />
+        </div>
+
+        <div class="relative mb-20 justify-items-center">
+          <ul
+            class="staggeranimation relative mb-16 -mt-36 p-3 pl-48 text-lg font-bold uppercase text-green-900"
+          >
+            <li class="dig">“Nu kan jeg leve livet igen</li>
+            <li class="dig">Jeg føler mig frisk</li>
+            <li class="dig">Jeg føler mig fri</li>
+            <li class="dig">Jeg føler mig genfødt”</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>CREDIT</h3>
+      <p>
+        Journalist: Josefine Cecilie <br />
+        Grafik: Josefine Cecilie <br />Billeder fra bogen 'Lidt i fem'<br />
+        Billeder af: Pierre Falcke <br />
+        Udgivelsesdato: 18. september 2022
+      </p>
+    </section>
+    
+  </body>
+</html>
